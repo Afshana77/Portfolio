@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { projects } from "../data/projects";
-import { FaArrowDownLong } from "react-icons/fa6";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import {   FaArrowRight } from "react-icons/fa";
 
 export default function Projects() {
   const settings = {

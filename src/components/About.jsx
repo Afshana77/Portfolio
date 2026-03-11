@@ -2,66 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   // Organize skills into categories
-  const skillCategories = [
-    {
-      title: "Frontend & Mobile",
-      skills: [
-        "React.js",
-        "Next.js",
-        "React Native",
-        "JavaScript (ES6+)",
-        "TypeScript",
-        "HTML5",
-        "CSS3",
-        "Tailwind CSS",
-        "LESS",
-      ],
-    },
-    {
-      title: "State & Architecture",
-      skills: [
-        "Redux",
-        "Context API",
-        "Component-driven Architecture",
-        "Reusable UI Systems",
-      ],
-    },
-    {
-      title: "Backend & APIs",
-      skills: ["AdonisJS", "REST APIs", "API Integration", "Neon Database"],
-    },
-    {
-      title: "AI & CMS",
-      skills: [
-        "OpenAI APIs",
-        "LLM Integration",
-        "Prompt Optimization",
-        "Agility CMS",
-        "Storyblok",
-      ],
-    },
-    {
-      title: "Performance & SEO",
-      skills: [
-        "Page Speed Optimization",
-        "SEO Best Practices",
-        "CMS-driven Rendering",
-      ],
-    },
-    {
-      title: "Tools & Soft Skills",
-      skills: [
-        "GitHub",
-        "Beanstalk",
-        "Jira",
-        "CI/CD Basics",
-        "Postman",
-        "Client Communication",
-        "Problem-solving",
-        "Cross-team Collaboration",
-      ],
-    },
-  ];
+  
 
   return (
     <section

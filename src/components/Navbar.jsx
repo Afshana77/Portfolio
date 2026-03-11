@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaGithub, FaTwitter, FaSun, FaMoon } from "react-icons/fa";
+import { FaSun, FaMoon } from "react-icons/fa";
 import { useTheme } from "./ThemeContext";
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
