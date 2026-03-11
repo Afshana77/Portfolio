@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { useTheme } from "./ThemeContext";
 
 export default function Hero(){
- const { darkMode, toggleTheme } = useTheme();
+ const { darkMode } = useTheme();
 return(
 
 <section className="min-h-screen flex justify-between items-center text-center dark:bg-black  ">
