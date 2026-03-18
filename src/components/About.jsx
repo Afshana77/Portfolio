@@ -18,7 +18,7 @@ export default function About() {
         >
           <img
             src="/about.png"
-            alt="About Image"
+            alt="Afshana"
             className="w-64 h-64 object-cover rounded-lg "
           />
         </motion.div>
